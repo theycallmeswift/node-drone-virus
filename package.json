@@ -1,0 +1,26 @@
+{
+  "name": "drone-virus",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theycallmeswift/node-drone-virus.git"
+  },
+  "keywords": [
+    "ar-drone",
+    "nodebots"
+  ],
+  "author": "Swift <theycallmeswift@gmail.com>",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/theycallmeswift/node-drone-virus/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "ar-drone": "~0.1.0"
+  }
+}
