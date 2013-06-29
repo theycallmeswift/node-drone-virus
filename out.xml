@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.25 scan initiated Sat Jun 29 14:13:24 2013 as: nmap -n -p 23 -T4 -oX out.xml 192.168.43.1/24 -->
+<nmaprun scanner="nmap" args="nmap -n -p 23 -T4 -oX out.xml 192.168.43.1/24" start="1372540404" startstr="Sat Jun 29 14:13:24 2013" version="6.25" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="23"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1372540404" endtime="1372540404"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.1" addrtype="ipv4"/>
+<address addr="02:1A:11:F5:76:5B" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="23"><state state="closed" reason="reset" reason_ttl="64"/><service name="telnet" method="table" conf="3"/></port>
+</ports>
+<times srtt="1230" rttvar="3817" to="100000"/>
+</host>
+<host starttime="1372540414" endtime="1372540414"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.43.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="23"><state state="closed" reason="reset" reason_ttl="64"/><service name="telnet" method="table" conf="3"/></port>
+</ports>
+<times srtt="90" rttvar="5000" to="100000"/>
+</host>
+<host starttime="1372540404" endtime="1372540414"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.44" addrtype="ipv4"/>
+<address addr="90:03:B7:38:9F:71" addrtype="mac" vendor="Parrot"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" method="table" conf="3"/></port>
+</ports>
+<times srtt="207890" rttvar="214304" to="1065106"/>
+</host>
+<host starttime="1372540404" endtime="1372540414"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.69" addrtype="ipv4"/>
+<address addr="90:03:B7:38:8F:49" addrtype="mac" vendor="Parrot"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" method="table" conf="3"/></port>
+</ports>
+<times srtt="257215" rttvar="308359" to="1250000"/>
+</host>
+<runstats><finished time="1372540414" timestr="Sat Jun 29 14:13:34 2013" elapsed="9.86" summary="Nmap done at Sat Jun 29 14:13:34 2013; 256 IP addresses (4 hosts up) scanned in 9.86 seconds" exit="success"/><hosts up="4" down="252" total="256"/>
+</runstats>
+</nmaprun>
