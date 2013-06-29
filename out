@@ -1,4 +1,0 @@
-# Nmap 6.25 scan initiated Sat Jun 29 13:00:54 2013 as: nmap -sPn -oG out 192.168.43.1/24
-Host: 192.168.43.1 ()	Status: Up
-Host: 192.168.43.231 (JonMarkGo)	Status: Up
-# Nmap done at Sat Jun 29 13:01:10 2013 -- 256 IP addresses (2 hosts up) scanned in 16.03 seconds
